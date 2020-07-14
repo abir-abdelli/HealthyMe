@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "622062980976",
+    "firebase_url": "https://healthyme-404ef.firebaseio.com",
+    "project_id": "healthyme-404ef",
+    "storage_bucket": "healthyme-404ef.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:622062980976:android:881117a8561d00bc7849b5",
+        "android_client_info": {
+          "package_name": "com.example.healthyme"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "622062980976-1hkge4qeu1e3kk7r9nqv1p3jfccjospp.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDJpW1o-Dykk4oMuv7Df7TqsLVMk0LuAsM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "622062980976-1hkge4qeu1e3kk7r9nqv1p3jfccjospp.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

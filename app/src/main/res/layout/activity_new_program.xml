@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".NewProgram"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:padding="10dp">
+
+    <TextView
+        android:id="@+id/HealthyMe"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#0052A1DF"
+        android:fontFamily="@font/acme"
+        android:text="Healthy Me !"
+        android:textAllCaps="false"
+        android:textColor="#80D8FF"
+        android:textColorLink="#FFFFFF"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="50dp"
+        android:layout_marginBottom="70dp"
+        app:layout_constraintVertical_bias="0.120000005" />
+
+    <EditText
+        android:id="@+id/programName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:layout_marginBottom="20dp"
+        android:hint="Enter the program name" />
+
+    <EditText
+        android:id="@+id/illness"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:hint="Enter your illness" />
+
+    <TextView
+        android:id="@+id/DisplayStartDate"
+        android:layout_width="209dp"
+        android:layout_height="37dp"
+        android:layout_marginBottom="20dp"
+        android:gravity="center"
+        android:text="Start Date"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/DisplayEndDate"
+        android:layout_width="211dp"
+        android:layout_height="37dp"
+        android:layout_marginBottom="20dp"
+        android:gravity="center"
+        android:text="End Date "
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/save"
+        android:layout_width="153dp"
+        android:layout_height="wrap_content"
+        android:text="Save"
+        android:textStyle="bold" />
+
+
+
+
+</LinearLayout>
